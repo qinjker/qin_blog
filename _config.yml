@@ -3,3 +3,4 @@ safe: true
 lsi: false
 markdown: redcarpet
 pygments: true
+baseurl: /qin_blog
