@@ -1,3 +1,5 @@
 name: qin blog
+safe: true
+lsi: false
 markdown: redcarpet
 pygments: true
