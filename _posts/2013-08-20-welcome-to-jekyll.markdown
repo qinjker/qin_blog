@@ -9,6 +9,6 @@ categories: skill
 def print_hi(name)
   puts "Hi, #{name}"
 end
-print_hi('Qin joker')
-#=> prints 'Hi, Tom' to STDOUT.
+print_hi('Qin')
+#=> prints 'Qin' to STDOUT.
 {% endhighlight %}
