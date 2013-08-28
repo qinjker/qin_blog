@@ -5,4 +5,4 @@ markdown: redcarpet
 pygments: true
 baseurl: /qin_blog
 paginate: 2
-paginate_path: "/qin_blog/blog/page:num"
+paginate_path: "/qin_blog/page:num"
