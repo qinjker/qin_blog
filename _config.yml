@@ -4,4 +4,5 @@ lsi: false
 markdown: redcarpet
 pygments: true
 baseurl: /qin_blog
-paginate: 2
+paginate: 5
+per_page: 2
