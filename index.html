@@ -15,15 +15,13 @@ title: 欢迎来到我的博客
 <div class="pagination">
   {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-        <a href="/">上一页</a>
+        <a class="previous" href="/">上一页</a>
       {% else %}
-        <a href="{{ paginator.previous_page_path }}">上一页</a>
+        <a class="previous" href="{{ paginator.previous_page_path }}">上一页</a>
       {% endif %}
     </p>
   {% else %}
-    <p class="previous disabled">
-      <span>上一页</span>
-    </p>
+      <span class="previous">上一页</span>
   {% endif %}
   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
